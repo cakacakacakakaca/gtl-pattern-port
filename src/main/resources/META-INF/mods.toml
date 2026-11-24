@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="gtlpatternport"
+version="1.0.2"
+displayName="GTL Pattern Port"
+description='''Local file import/export for the GTLCore pattern buffer copy tool.'''
+[[dependencies.gtlpatternport]]
+modId="forge"
+mandatory=true
+versionRange="[47.1.47,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.gtlpatternport]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.gtlpatternport]]
+modId="gtlcore"
+mandatory=true
+versionRange="[1.2.2,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.gtlpatternport]]
+modId="ae2"
+mandatory=true
+versionRange="[15,)"
+ordering="AFTER"
+side="BOTH"
